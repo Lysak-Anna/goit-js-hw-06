@@ -1,13 +1,10 @@
 const allItems = document.querySelectorAll('.item');
-
-function countItems(array) {
-    return `Number of categories: ${array.length}`;
-};
-
 const list = document.querySelector('#categories');
-
 const listItems = list.children;
 
+function countItems(array) {
+    console.log(`Number of categories: ${array.length}`);
+};
 
 function getItemInform(array) {
     for (let i = 0; i < array.length; i += 1) {
@@ -19,5 +16,5 @@ function getItemInform(array) {
     }
 };
 
-console.log(countItems(allItems));
-console.log(getItemInform(listItems));
+(countItems(allItems));
+(getItemInform(listItems));

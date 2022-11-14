@@ -8,7 +8,6 @@ const ingredients = [
 ];
 
 const list = document.querySelector('#ingredients');
-
 const arrayForNewElem = [];
 
 function createLiForIngr(array) {
@@ -23,7 +22,6 @@ function createLiForIngr(array) {
 }
 
 createLiForIngr(ingredients);
-
 list.append(...arrayForNewElem);
 
 

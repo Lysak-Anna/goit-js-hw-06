@@ -3,7 +3,8 @@ input.addEventListener('blur', inputBlurHandler);
  
 
 function inputBlurHandler() {
-    if (input.value.length === 6) {
+  if (input.value.length === 6) {
+    input.classList.remove('invalid');
       return  input.classList.add('valid');
     
     }

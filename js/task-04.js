@@ -5,10 +5,6 @@ increaseValue.addEventListener('click', increaseValueClickHandler);
 const decreaseValue = document.querySelector('[data-action="decrement"]');
 decreaseValue.addEventListener('click', decreaseValueClickHandler);
 
-
-
-
-
 function increaseValueClickHandler() {
     counter.textContent = counterValue += 1;
 }
